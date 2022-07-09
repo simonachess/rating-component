@@ -11,7 +11,7 @@ export default function App() {
 	})
 
 	const ratings = ['1', '2', '3', '4', '5']
-console.log(showThankYou)
+
 	return (
 		<div className="h-screen flex justify-center items-start md:items-center px-4 py-7 md:px-0 md:py-0">
 			<div className={classnames(showThankYou.showThankYouPage === true && "hidden","flex flex-col w-full md:w-[412px] md:h-[416px] bg-gradient-to-t from-[#232A34] to-[#181E27] rounded-3xl p-8")}>
